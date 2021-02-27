@@ -1,0 +1,150 @@
+:root {
+  --main-front: "Roboto", sans-serif;
+  --secondary-front: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-front);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/*==========COMPONENTS==========*/
+.title-list {
+  font-family: var(--main-front);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.description {
+  font-family: var(--main-front);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*==========END COMPONENTS==========*/
+
+/*==========HEADER==========*/
+navigation-link {
+  font-family: var(--main-front);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navagation-contact {
+  font-family: var(--main-front);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.navagation-contactk:hover,
+.navagation-contactk:focus {
+  color: var(--accent-color);
+}
+
+.logo-dark {
+  font-family: var(--secondary-front);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+/*==========END HEADER==========*/
+
+/*==========HERO==========*/
+.hero-title {
+  font-family: var(--main-front);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #FFFFFF;*/
+}
+
+.button-primary {
+  font-family: var(--main-front);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+/*==========END HERO==========*/
+
+/*==========ABOUT==========*/
+/*==========END ABOUT==========*/
+
+/*==========PORTFOLIO==========*/
+.modal-btn {
+  font-family: var(--main-front);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+}
+/*==========END PORTFOLIO==========*/
+
+/*==========FOOTER==========*/
+.logo-white {
+  font-family: var(--secondary-front);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.navagation-foother {
+  font-family: var(--main-front);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*==========END FOOTER==========*/
