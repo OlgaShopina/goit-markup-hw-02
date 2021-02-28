@@ -2,11 +2,17 @@
   --main-front: "Roboto", sans-serif;
   --secondary-front: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --heading-color: #212121;
+  --text-color: #757575;
+  --white-color: #ffffff;
+  --main-background: #e5e5e5;
+  --second-background: #f5f4fa;
+  --dark-background: #2f303a;
 }
 
 body {
   font-family: var(--main-front);
-  color: #212121;
+  color: var(--heading-color);
 }
 
 .link {
@@ -40,7 +46,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--heading-color);
 }
 .active {
   color: var(--accent-color);
@@ -56,18 +62,22 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
 }
 
 .contact-link:hover,
 contact-link:focus {
   color: var(--accent-color);
 }
+
+.header {
+  background: var(--white-color);
+}
 /*==========END HEADER==========*/
 
 /*==========HERO==========*/
 .hero {
-  background: #2f303a;
+  background: var(--dark-background);
 }
 
 .hero-title {
@@ -76,7 +86,7 @@ contact-link:focus {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .button-primary {
@@ -87,8 +97,8 @@ contact-link:focus {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white-color);
+  background: var(--accent-color);
 }
 /*==========END HERO==========*/
 
@@ -104,7 +114,11 @@ contact-link:focus {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
+}
+
+.about {
+  background: var(--main-background);
 }
 /*==========END ABOUT==========*/
 
@@ -115,6 +129,10 @@ contact-link:focus {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.functional {
+  background: var(--main-background);
 }
 /*==========END FUNCTIONAL==========*/
 
@@ -138,7 +156,11 @@ contact-link:focus {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
+}
+
+.team {
+  background: var(--second-background);
 }
 /*==========END TEAM==========*/
 
@@ -155,7 +177,7 @@ contact-link:focus {
 .modal-btn:hover,
 .modal-btn:focus {
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .project-title {
@@ -163,16 +185,19 @@ contact-link:focus {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--heading-color);
 }
 
 .project-description {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 
+.portfolio {
+  background: var(--main-background);
+}
 /*==========END PORTFOLIO==========*/
 
 /*==========FOOTER==========*/
@@ -181,7 +206,7 @@ contact-link:focus {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .foother-link {
@@ -189,10 +214,18 @@ contact-link:focus {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--dark-background);
+}
+
+.foother-link-address {
+  font-family: var(--main-front);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 /*==========END FOOTER==========*/
