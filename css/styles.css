@@ -6,6 +6,7 @@
 
 body {
   font-family: var(--main-front);
+  color: #212121;
 }
 
 .link {
@@ -21,52 +22,16 @@ body {
 }
 
 /*==========COMPONENTS==========*/
-.title-list {
-  font-family: var(--main-front);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
-}
-
-.description {
-  font-family: var(--main-front);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
 /*==========END COMPONENTS==========*/
 
 /*==========HEADER==========*/
-navigation-link {
+.navigation-link {
   font-family: var(--main-front);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-}
-
-.navigation-link:hover,
-.navigation-link:focus {
-  color: var(--accent-color);
-}
-
-.navagation-contact {
-  font-family: var(--main-front);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
-.navagation-contactk:hover,
-.navagation-contactk:focus {
-  color: var(--accent-color);
 }
 
 .logo-dark {
@@ -77,26 +42,44 @@ navigation-link {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.active {
+  color: var(--accent-color);
+}
 
 .logo-accent {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-family: var(--main-front);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact-link:hover,
+contact-link:focus {
   color: var(--accent-color);
 }
 /*==========END HEADER==========*/
 
 /*==========HERO==========*/
+.hero {
+  background: #2f303a;
+}
+
 .hero-title {
-  font-family: var(--main-front);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  /*color: #FFFFFF;*/
+  color: #ffffff;
 }
 
 .button-primary {
-  font-family: var(--main-front);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -110,11 +93,57 @@ navigation-link {
 /*==========END HERO==========*/
 
 /*==========ABOUT==========*/
+.about-title-list {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.about-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /*==========END ABOUT==========*/
+
+/*==========FUNCTIONAL==========*/
+.functional-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*==========END FUNCTIONAL==========*/
+
+/*==========TEAM==========*/
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-description {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*==========END TEAM==========*/
 
 /*==========PORTFOLIO==========*/
 .modal-btn {
-  font-family: var(--main-front);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -128,6 +157,22 @@ navigation-link {
   background: var(--accent-color);
   color: #ffffff;
 }
+
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 /*==========END PORTFOLIO==========*/
 
 /*==========FOOTER==========*/
@@ -135,16 +180,19 @@ navigation-link {
   font-family: var(--secondary-front);
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
+  line-height: 1.19;
+  color: #ffffff;
 }
 
-.navagation-foother {
+.foother-link {
   font-family: var(--main-front);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
 }
 /*==========END FOOTER==========*/
